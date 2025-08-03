@@ -48,16 +48,14 @@ const Skills = () => {
         </div>
         <br />
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
+          <li>I am a passionate and results-driven Web Developer with a strong foundation in front-end and back-end technologies. I specialize in building responsive, user-friendly, and high-performing websites and web applications that deliver real value to businesses and users alike.
+
+🔹 Core Web Development Skills
+Front-End Development: Proficient in HTML5, CSS3, JavaScript, and modern frameworks like React.js, and Bootstrap to create clean, interactive, and responsive user interfaces.
+
+Back-End Development: Experienced in building robust server-side applications using PHP and Laravel frameworks.
+
+        </li>
         </ul>
         <br />
         <div className="flex justify-end">

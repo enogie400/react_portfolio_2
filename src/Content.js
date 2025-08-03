@@ -1,11 +1,11 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
+import figma from "./assets/images/Skills/react.png";
 import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
+import ps from "./assets/images/Skills/wps.png";
+import reactjs from "./assets/images/Skills/php.png";
+import nodejs from "./assets/images/Skills/html.png";
 import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
@@ -15,6 +15,8 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
+import project4 from "./assets/images/projects/img4.png";
+import project5 from "./assets/images/projects/img5.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -59,8 +61,8 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    firstName: "ENOGIE",
+    LastName: "OMOROGBE",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
@@ -79,34 +81,59 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        name: "Ract Js",
+        para: "Core Competencies in React.js",
         logo: figma,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        name: "HTML",
+        para: "I have a strong command of HTML (HyperText Markup Language).",
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        name: "WordPress Developer",
+        para: "I am a skilled WordPress Developer with hands-on experience in designing",
         logo: ps,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
+        name: "PHP Developer",
+        para: "I am an experienced PHP Developer with a strong background in developing dynamic web. ",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
+        name: "CSS",
+        para: "I am a skilled CSS Developer with a strong focus on creating visually appealing, responsive, and accessible user interfaces.",
         logo: sketch,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Javascript",
+        para: "Problem-solving and analytical thinking, Communication and teamwork, Adaptability in fast-changing tech environments, Attention to detail and code quality",
+        logo: sketch,
+      },
+      {
+        name: "WEB HOSTING",
+        para: "IT professional who is responsible for managing and maintaining web servers and infrastructure that host websites, web applications, and related services. ",
+        logo: sketch,
+      },
+      {
+        name: "SEO",
+        para: "digital marketing professional who specializes in improving the visibility and ranking of websites in search engine results pages (SERPs) like Google, Bing, and Yahoo.",
+        logo: sketch,
+      },
+      {
+        name: "CMS INTEGRATIONS",
+        para: "CMS like WordPress, Drupal, Joomla, Shopify, or Headless CMS (like Strapi, Sanity, or Contentful) often needs to be integrated with tools for analytics, eCommerce, marketing automation, payment gateways, CRMs, and more.",
+        logo: sketch,
+      },
+      {
+        name: "PROJECT MAMAGEMENT",
+        para: "planning, organizing, and overseeing tasks and resources to achieve specific goals within a defined timeframe and budget.",
+        logo: sketch,
+      },
+      {
+        name: "CUSTOMER SERVICE REPRESNTATIVE",
+        para: "frontline professional who interacts with customers on behalf of a company to resolve issues, answer questions, provide information, and ensure a positive experience",
+        logo: sketch,
       },
     ],
     icon: MdArrowForward,
@@ -117,37 +144,45 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+       // para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Project Management",
+       // para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo2,
       },
       {
         title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        //para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo3,
       },
     ],
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "Recent Projects",
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Techo Group Ng Ltd",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "Anchoria Investment",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "Daimond Luxury MarketPlace",
         image: project3,
+      },
+      {
+        title: "MICHAEL ABANYE INSIGHTS (M.A.I)",
+        image: project4,
+      },
+      {
+        title: "NOLT FINANCE LTD",
+        image: project5,
       },
     ],
   },
@@ -157,27 +192,27 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Working with Enogie Omorogbe was a game changer for our online presence. They took the time to understand our vision and delivered a beautiful, functional website ahead of schedule. We've already seen an increase in traffic and customer inquiries!”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "MR ELO ZINO",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“From start to finish, the team was professional, communicative, and full of creative ideas. They built a custom platform that perfectly fit our startup’s needs. We couldn’t have asked for a better partner in this critical phase of our business.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar2,
-        name: "Tom Alex",
+        name: "David L., Co-Founder, LaunchHub",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Our new website not only looks amazing but also runs smoothly and converts better. The integrated shopping cart and inventory management features have saved us hours of manual work every week!”",
         img: avatar3,
-        name: "Johnny",
+        name: "MRS GLORIA  EMUMEJAKPOR",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I finally have a portfolio that reflects my work and personality. The team really listened to what I wanted and turned it into something better than I imagined. I’m proud to send people to my site now.”",
         img: avatar4,
-        name: "ROBBIN",
+        name: "Tara S",
       },
     ],
   },
@@ -186,7 +221,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "I am a passionate self-taught developer with a deep understanding of creating web products. I have about 13 years of experiece in web development, specializing in front-end technologies. My journey has been filled with learning and growth, and I am excited to share my work with you. Feel free to explore my product and projects, and don't hesitate to reacout to me for any inquiries or collaborations.",
     btnText: "Hire Me",
   },
   Contact: {
@@ -194,23 +229,23 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "sstechnology1985@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:sstechnology1985@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+234 816 541 7645",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/2348165417645",
       },
       {
-        text: "codeaprogram",
+        text: "samtechng",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/samtechng/",
       },
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2025",
   },
 };
