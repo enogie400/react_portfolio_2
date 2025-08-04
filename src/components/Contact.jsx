@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_ruwrqw2', 'template_nmujtpe', form.current, 'Yd69cd1-ank5TaFhkU'
       )
       .then(
         (result) => {
@@ -73,7 +73,7 @@ const Contact = () => {
             <button
               className="btn self-start
             bg-white text-dark_primary"
-            >
+             type="submit">
               Submit
             </button>
           </form>
